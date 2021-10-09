@@ -1,0 +1,70 @@
+/* Font Family Pre-connect Tag */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+/* /Font Family Pre-connect Tag */
+
+/* Core Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/* /Core Styling */
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+/* /Headings Styling */
+
+/* Inputs Styling */
+input {
+    font-family: 'Roboto Mono', monospace;
+}
+/* /Inputs Styling */
+
+/* Container */
+.container {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E81EA;
+}
+/* /Container */
+
+/* Text Heading Styling */
+h1:first-child {
+    height: fit-content;
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+}
+/* /Text Heading Styling */
+
+/* QR Code data Input Styling */
+#qr-data {
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+/* /QR Code data Input Styling */
+
+/* Button Styling */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    background: #fff;
+}
+/* /Button Styling */
+
+/* QR Code Styling */
+#qrcode {
+    margin: 20px;
+}
+/* /QR Code Styling */
